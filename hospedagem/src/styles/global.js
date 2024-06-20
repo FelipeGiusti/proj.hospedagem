@@ -8,13 +8,13 @@ export default createGlobalStyle`
   }
 
   body{
-    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
-    color: ${({ theme }) => theme.COLORS.WHITE};
+    background-color: ${({ theme }) => theme.COLORS.WHITE};
+    color: ${({ theme }) => theme.COLORS.GRAY};
     -webkit-font-smoothing: antialiased;
   }
 
   body, input, button, textarea {
-    font-family: "Inter", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     font-size: 16px;
     outline: none;
   }
