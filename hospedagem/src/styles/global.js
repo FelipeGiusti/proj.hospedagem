@@ -8,7 +8,7 @@ export default createGlobalStyle`
   }
 
   body{
-    background-color: ${({ theme }) => theme.COLORS.WHITE};
+    background-color: ${({ theme }) => theme.COLORS.TESTE};
     color: ${({ theme }) => theme.COLORS.GRAY};
     -webkit-font-smoothing: antialiased;
   }
